@@ -155,6 +155,16 @@ body {
   height: 100%;
 }
 
+.fade-in {
+  animation: fade-in 0.1s;
+  -webkit-animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0.1;}
+  100% {opacity: 1;}
+}
+
 /* Media Query */
 @media (max-width: 768px) {
   .wide {
