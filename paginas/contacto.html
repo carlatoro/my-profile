@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pre Entrega</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../css/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="ancho">
+                <div class="logo">
+                    <p><a href="index.html">Carla Toro</a></p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="acercademi.html">Acerca de mí</a></li>
+                        <li><a href="habilidades.html">Habilidades</a></li>
+                        <li><a href="proyectos.html">Proyectos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="contenedor">
+            <div class="contenedor-ancho">
+                <p class="titulo">Contactos</p>
+                <div class="fila centrado">
+                    <div class="columna-2">
+                        <div class="formulario">
+                            <form action="contacto.html" method="POST" enctype="multipart/from-data">
+                                <div class="campo">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" name="nombre" placeholder="Nombre y Apellido" /><br />
+                                </div>
+                                <div class="campo">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" placeholder="correo@gmail.com" /><br />
+                                </div>
+								<div class="campo">
+									<label for="descripcion">Descripción</label>
+									<textarea name="descripcion" placeholder="Descripción" ></textarea>
+								</div>
+                                <button type="reset">LIMPIAR</button>
+                                <button type="submit">ENVIAR</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="columna-2">
+                        <div class="fondo-imagen"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <span>
+                <a href="https://www.linkedin.com/in/carla-toro-mendoza/" target="_blank">
+                    <img class="icono-footer" src="../img/icon-linkeding.svg" alt="" />
+                </a>
+            </span>
+            <span>
+                <a href="mailto:email@email.com" target="_blank">
+                    <img class="icono-footer" src="../img/icon-correo.svg" alt="" />
+                </a>
+            </span>
+            <span>
+                <a href="https://www.behance.net/carlatoro1" target="_blank">
+                    <img class="icono-footer" src="../img/icon-behance.svg" alt="" />
+                </a>
+            </span>
+        </footer>
+    </body>
+</html>
