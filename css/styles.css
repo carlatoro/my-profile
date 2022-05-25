@@ -19,3 +19,15 @@ body {
 .bold {
     font-weight: bold;
 }
+
+.nav-item > .nav-link {
+    font-size: 14px;
+}
+
+.skills-container {
+    text-align: center;
+}
+
+.brand-logo {
+    width: 40%;
+}

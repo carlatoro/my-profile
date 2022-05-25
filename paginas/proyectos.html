@@ -1,97 +1,187 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Pre Entrega</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="../css/main.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
-    </head>
-    <body>
-        <header>
-            <div class="ancho">
-                <div class="logo">
-                    <p><a href="index.html">Carla Toro</a></p>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="acercademi.html">Acerca de mí</a></li>
-                        <li><a href="habilidades.html">Habilidades</a></li>
-                        <li><a href="proyectos.html">Proyectos</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carla Toro</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
 
-        <section class="contenedor">
-            <div class="contenedor-ancho">
-                <p class="titulo">PROYECTOS REALIZADOS</p>
-                <div class="fila">
-                    <div class="columna-3">
-                        <div class="centrado">
-                            <a href="https://www.behance.net/gallery/139043941/Rediseno-App-Club-DIA" target="_blank">
-                                <img class="imagen-proyecto" src="../img/club_dia.png" alt="" />
-                            </a>
-                        </div>
-                        <div class="columna-descripcion">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur facilisis nunc,
-                            quis ornare sem pretium sed. Proin vitae nunc dui. Cras auctor felis nec posuere mollis.
-                            Cras in porta tellus, ac pellentesque est. Sed risus risus, rhoncus quis cursus nec,
-                            efficitur non lorem. Quisque venenatis leo sit amet sapien.
-                        </div>
-                    </div>
-                    <div class="columna-3">
-                        <div class="centrado">
-                            <a href="https://www.behance.net/gallery/130419421/App-HELP-ME" target="_blank">
-                                <img class="imagen-proyecto" src="../img/help_me.png" alt="" />
-                            </a>
-                        </div>
-                        <div class="columna-descripcion">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non risus non magna convallis
-                            luctus. Nulla in tempor libero. Integer vitae ornare purus, ut sagittis dui. Vivamus nec
-                            blandit tellus, at placerat urna. Morbi tempor vestibulum metus, pulvinar lobortis est
-                            lacinia eget. Sed cursus auctor rutrum. Aliquam in suscipit mauris. Integer.
-                        </div>
-                    </div>
-                    <div class="columna-3">
-                        <div class="centrado">
-                            <a href="https://www.behance.net/gallery/122244239/Rico-Sazon-Venezolano" target="_blank">
-                                <img class="imagen-proyecto" src="../img/rico_sazon_venezolano.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="columna-descripcion">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat varius feugiat.
-                            Integer placerat gravida elit at dictum. Phasellus lacus nisl, volutpat vel urna quis,
-                            convallis mollis sapien. Etiam lobortis eros sed risus ultrices dapibus. Quisque nec dolor
-                            eleifend, dictum elit a, aliquam orci. Suspendisse ligula urna, rutrum eget placerat.
-                        </div>
-                    </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body class="d-flex flex-column h-100">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3 shadow-blur">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"><h3>Carla Toro</h3></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link bold text-uppercase mx-2" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bold text-uppercase mx-2" href="acercademi.html">Acerca de mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bold text-uppercase mx-2" href="habilidades.html">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active bold text-uppercase mx-2" href="proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bold text-uppercase mx-2" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main my-5 animate__animated animate__fadeIn animate__slow">
+      <article>
+        <header class="container">
+          <div class="row">
+            <h2 class="text-uppercase">PROYECTOS REALIZADOS</h2>
+          </div>
+        </header>
+        <section class="container mt-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-4 col-sm-12 my-3">
+              <div class="card border mb-3">
+                <div class="card-header">
+                  <h3>Club DIA</h3>
                 </div>
+                <div class="card-body text-dark">
+                  <a href="https://www.behance.net/gallery/139043941/Rediseno-App-Club-DIA" target="_blank">
+                    <img class="img-fluid rounded mx-auto d-block" src="../img/club_dia.png" alt="Club Dia" />
+                  </a>
+                  <p class="card-text mt-2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus aut provident corporis
+                    quo dolores, facilis, harum nam soluta voluptatem tenetur vitae obcaecati dolorem voluptates quod
+                    dicta accusantium optio dolore?
+                  </p>
+                </div>
+                <div class="card-footer bg-transparent text-end">
+                  <a
+                    href="https://www.behance.net/gallery/139043941/Rediseno-App-Club-DIA"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Ver más</a
+                  >
+                </div>
+              </div>
             </div>
+            <div class="col-lg-4 col-sm-12 my-3">
+              <div class="card border mb-3">
+                <div class="card-header">
+                  <h3>Help Me!</h3>
+                </div>
+                <div class="card-body text-dark">
+                  <a href="https://www.behance.net/gallery/130419421/App-HELP-ME" target="_blank">
+                    <img class="img-fluid rounded mx-auto d-block" src="../img/help_me.png" alt="Help Me" />
+                  </a>
+                  <p class="card-text mt-2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus aut provident corporis
+                    quo dolores, facilis, harum nam soluta voluptatem tenetur vitae obcaecati dolorem voluptates quod
+                    dicta accusantium optio dolore?
+                  </p>
+                </div>
+                <div class="card-footer bg-transparent text-end">
+                  <a
+                    href="https://www.behance.net/gallery/130419421/App-HELP-ME"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Ver más</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 my-3">
+              <div class="card border mb-3">
+                <div class="card-header">
+                  <h3>Rico Sazón Venezolano</h3>
+                </div>
+                <div class="card-body text-dark">
+                  <a href="https://www.behance.net/gallery/122244239/Rico-Sazon-Venezolano" target="_blank">
+                    <img
+                      class="img-fluid rounded mx-auto d-block"
+                      src="../img/club_dia.png"
+                      alt="Rico Sazón Venezolano"
+                    />
+                  </a>
+                  <p class="card-text mt-2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus aut provident corporis
+                    quo dolores, facilis, harum nam soluta voluptatem tenetur vitae obcaecati dolorem voluptates quod
+                    dicta accusantium optio dolore?
+                  </p>
+                </div>
+                <div class="card-footer bg-transparent text-end">
+                  <a
+                    href="https://www.behance.net/gallery/122244239/Rico-Sazon-Venezolano"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Ver más</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
-        <footer>
-            <span>
-                <a href="https://www.linkedin.com/in/carla-toro-mendoza/" target="_blank">
-                    <img class="icono-footer" src="../img/icon-linkeding.svg" alt="">
-                </a>
-            </span>
-            <span>
-                <a href="mailto:email@email.com" target="_blank">
-                    <img class="icono-footer" src="../img/icon-correo.svg" alt="">
-                </a>
-            </span>
-            <span>
-                <a href="https://www.behance.net/carlatoro1" target="_blank">
-                    <img class="icono-footer" src="../img/icon-behance.svg" alt="">
-                </a>
-            </span>
-        </footer>
-    </body>
+      </article>
+    </main>
+    <footer class="footer mt-auto bg-primary p-3 d-flex justify-content-center">
+      <a
+        class="text-white text-decoration-none mx-3"
+        href="https://www.linkedin.com/in/carla-toro-mendoza/"
+        target="_blank"
+      >
+        <i class="fa-brands fa-linkedin fa-2xl"></i>
+      </a>
+      <a class="text-white text-decoration-none mx-3" href="mailto:email@email.com">
+        <i class="fa-solid fa-envelope fa-2xl"></i>
+      </a>
+      <a class="text-white text-decoration-none mx-3" href="https://www.behance.net/carlatoro1" target="_blank">
+        <i class="fa-brands fa-behance fa-2xl"></i>
+      </a>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
