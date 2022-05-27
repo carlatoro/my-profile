@@ -1,0 +1,24 @@
+{
+  "name": "my-profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/styles.scss dist/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlatoro/my-profile.git"
+  },
+  "author": "Carla Toro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlatoro/my-profile/issues"
+  },
+  "homepage": "https://github.com/carlatoro/my-profile#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
