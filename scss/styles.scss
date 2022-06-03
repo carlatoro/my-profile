@@ -1,7 +1,56 @@
-.zoom {
-  transition: transform .2s;
-  &:hover {
-    transform: scale(1.1);
-    z-index: -1;
+@import './base/mixins';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.shadow-blur {
+  box-shadow: 0 4px 5px #505050;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nav-item> {
+  .nav-link {
+    font-size: 14px;
+    // color: red;
   }
+}
+
+.skills-container {
+  text-align: center;
+}
+
+.brand-logo {
+  width: 40%;
+}
+
+
+.zoom {
+  @include zoom;
+}
+
+$index: 0;
+
+@each $skill,
+$bg,
+$title in (xd, #68014e, #b23cb7),
+(illustrator, #4e0809, #FF9A00),
+(photoshop, #042f55, #30A7FF),
+(html, #E44D26, #f1a692),
+(css, #162d85, #92a5ee) {
+  $index: $index +1;
+  @include bg-box($skill, $bg, $title, $index);
 }

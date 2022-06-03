@@ -1,0 +1,33 @@
+@import 'partials';
+@import 'variables';
+
+@mixin zoom {
+  transition: transform .2s;
+
+  &:hover {
+    transform: scale(1.1);
+    z-index: -1;
+  }
+}
+
+@mixin bg-box($skill, $bg, $title, $index) {
+  .bg-box-#{$skill} {
+    background-color: $bg;
+    border: solid 4px #FFF;
+
+    .image-skill-#{$skill} {
+      width: 150px;
+      background-image: url('../img/#{$skill}.svg');
+      background-repeat: no-repeat;
+      height: 140px;
+    }
+
+    .title-skill-#{$skill} {
+      color: $title;
+    }
+
+    @extend .text-color-500;
+    color: map-get($colors, $index);
+
+  }
+}
