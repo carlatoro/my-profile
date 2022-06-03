@@ -14,6 +14,19 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+header {
+  nav{
+    .container{
+      a {
+        h1 {
+          font-size: 2.5rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
 .shadow-blur {
   box-shadow: 0 4px 5px #505050;
 }
