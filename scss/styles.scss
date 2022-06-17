@@ -50,6 +50,16 @@ header {
   width: 40%;
 }
 
+.bg-image {
+  background-image: url('../img/contact.jpg');
+  // background-size: cover;
+  // background-position: center;
+  // height: 100vh;
+  background-size: 100% auto;
+ background-position: center top;
+ background-repeat: no-repeat;
+}
+
 
 .zoom {
   @include zoom;
