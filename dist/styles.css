@@ -1,0 +1,111 @@
+.text-color-500, .bg-box-xd, .bg-box-illustrator, .bg-box-photoshop, .bg-box-html, .bg-box-css {
+  font-size: 16px;
+  font-weight: 500; }
+
+*, html, body, p {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: 'Quicksand', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+header nav .container a h1 {
+  font-size: 2.5rem;
+  font-weight: 500; }
+
+.shadow-blur {
+  box-shadow: 0 4px 5px #505050; }
+
+.bold {
+  font-weight: bold; }
+
+.nav-item > .nav-link {
+  font-size: 14px; }
+
+.skills-container {
+  text-align: center; }
+
+.brand-logo {
+  width: 40%; }
+
+.bg-image {
+  background-image: url("../img/contact.jpg");
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat; }
+
+.main-image img {
+  max-width: 260px; }
+
+.zoom {
+  transition: transform .2s; }
+  .zoom:hover {
+    transform: scale(1.1);
+    z-index: -1; }
+
+.bg-box-xd {
+  background-color: #68014e;
+  border: solid 4px #FFF;
+  color: #ffa1ff; }
+  .bg-box-xd .image-skill-xd {
+    width: 150px;
+    background-image: url("../img/xd.svg");
+    background-repeat: no-repeat;
+    height: 140px; }
+  .bg-box-xd .title-skill-xd {
+    color: #b23cb7; }
+
+.bg-box-illustrator {
+  background-color: #4e0809;
+  border: solid 4px #FFF;
+  color: #ffcb48; }
+  .bg-box-illustrator .image-skill-illustrator {
+    width: 150px;
+    background-image: url("../img/illustrator.svg");
+    background-repeat: no-repeat;
+    height: 140px; }
+  .bg-box-illustrator .title-skill-illustrator {
+    color: #FF9A00; }
+
+.bg-box-photoshop {
+  background-color: #042f55;
+  border: solid 4px #FFF;
+  color: #77d8ff; }
+  .bg-box-photoshop .image-skill-photoshop {
+    width: 150px;
+    background-image: url("../img/photoshop.svg");
+    background-repeat: no-repeat;
+    height: 140px; }
+  .bg-box-photoshop .title-skill-photoshop {
+    color: #30A7FF; }
+
+.bg-box-html {
+  background-color: #E44D26;
+  border: solid 4px #FFF;
+  color: #ffd8c2; }
+  .bg-box-html .image-skill-html {
+    width: 150px;
+    background-image: url("../img/html.svg");
+    background-repeat: no-repeat;
+    height: 140px; }
+  .bg-box-html .title-skill-html {
+    color: #f1a692; }
+
+.bg-box-css {
+  background-color: #162d85;
+  border: solid 4px #FFF;
+  color: #c5d6ff; }
+  .bg-box-css .image-skill-css {
+    width: 150px;
+    background-image: url("../img/css.svg");
+    background-repeat: no-repeat;
+    height: 140px; }
+  .bg-box-css .title-skill-css {
+    color: #92a5ee; }
