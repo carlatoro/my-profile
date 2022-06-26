@@ -1,6 +1,6 @@
 @import './base/mixins';
 
-* {
+*,html, body, p {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -12,6 +12,10 @@ html {
 
 body {
   font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
